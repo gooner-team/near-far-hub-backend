@@ -59,5 +59,6 @@ class Kernel extends HttpKernel
         'seller' => \App\Http\Middleware\SellerMiddleware::class,
         'admin' => \App\Http\Middleware\AdminMiddleware::class,
         'moderator' => \App\Http\Middleware\ModeratorMiddleware::class,
+        'upload.security' => \App\Http\Middleware\ImageUploadSecurityMiddleware::class,
     ];
 }

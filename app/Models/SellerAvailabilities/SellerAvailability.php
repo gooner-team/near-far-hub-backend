@@ -22,6 +22,7 @@ class SellerAvailability extends Model
     public const IS_ACTIVE = 'is_active';
     public const CREATED_AT = 'created_at';
     public const UPDATED_AT = 'updated_at';
+    public const TABLE = 'seller_availabilities';
 
     protected $fillable = [
         self::SELLER_PROFILE_ID,

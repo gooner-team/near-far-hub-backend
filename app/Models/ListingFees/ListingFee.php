@@ -22,6 +22,7 @@ class ListingFee extends Model
     public const PAYMENT_METHOD = 'payment_method';
     public const TRANSACTION_ID = 'transaction_id';
     public const PAID_AT = 'paid_at';
+    public const TABLE = 'listing_fees';
 
     protected $fillable = [
         self::SELLER_PROFILE_ID,
